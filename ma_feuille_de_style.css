@@ -1,0 +1,260 @@
+/* --- Feuille de style pour Portefolio --- */
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+html, body {
+ font-family: "Montserrat", sans serif;
+ text-align: center;
+ margin: 0;
+ padding: 0;
+ background-image: url("./medias/beige2.jpg");
+ background-attachment: fixed;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* -- Grille -- */
+
+.container {
+    width: 100%;
+    display: grid;
+    margin: 0;
+    grid-gap: 0;
+    grid-template-areas: "nav"
+                        "header"
+                        "contenu1"
+                        "contenu2"
+                        "contenu3"
+                        "contenu4"
+                        "contenu5"
+                        "footer";
+}
+
+.nav {
+    height: 3.5em;
+    width: 100%;
+    background-color: #333333;
+    grid-area: nav;
+    box-shadow: 2px 2px 2px black;
+}
+
+.header {
+    display: flex;
+    grid-area: header;
+    height: 40em;
+    width: 100%;
+    flex-direction: column;
+    padding: 15em;
+}
+
+.contenu1 {
+    padding: 17px;
+    background-color: #333333;
+    grid-area: contenu1;
+    width: 100%;
+    height: 40em;
+    color: white;
+}
+
+.contenu2 {
+    padding: 17px;
+    align-items: center;
+    background-color: #C799B9;
+    grid-area: contenu2;
+    width: 100%;
+    height: 40em;
+    color: black;
+}
+
+
+.contenu3 {
+    padding: 17px;
+    background-color: #e5d6c1;
+    grid-area: contenu3;
+    width: 100%;
+    height: 40em;
+}
+
+.contenu4 {
+    padding: 17px;
+    background-color: #333333;
+    grid-area: contenu4;
+    width: 100%;
+    height: 42em;
+    color: white;
+}
+    
+   
+.contenu5 {
+    padding: 17px;
+    grid-area: contenu5;
+    width: 100%;
+    height: 45em;
+    color: black;
+    background-color: #e5d6c1;
+}
+
+.footer {
+    padding: 1px;
+    width: 100%;
+    height: 20em;
+    background-color: #333333;
+    text-justify: start;
+    grid-area: footer;
+    color: white;
+    z-index: 7;
+}
+
+/* -- Navigation -- */
+/* Add a black background color to the top navigation */
+
+
+/* Style the links inside the navigation bar */
+
+
+/* Change the color of links on hover */
+
+
+/* Add a color to the active/current link */
+
+nav {
+    position: sticky;
+    top: 0;
+    align-content: center;
+}
+    
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: "Montserrat", sans serif;
+}
+
+.nav a {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.nav a:hover,
+.nav a:hover.actif{
+  color: #C799B9;
+}
+
+
+/* - Partie mise en forme texte - */
+
+h1 {
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+
+
+/* -- Partie image de "Centre d'intérêts" -- */
+
+.contenu5 img {
+    width: 23em;
+    height: 30em;
+    flex-grow: 1;
+}
+
+.interets {
+    display: flex;
+    flex-wrap: no-wrap;
+    gap: 0;
+}
+
+.interetsp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.formations {
+    display: flex;
+    justify-content: space-evenly;
+    text-justify: inter-word;
+    margin-top: 4em;
+}
+
+.formation1 {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+
+.formation2 {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+
+.formation3 {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+    
+.icons-skills {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10em;
+}
+
+
+.contenu1 p {
+    margin-top: 6em;
+    margin-right: 10em;
+    margin-left: 10em;
+    text-align: justify;
+}
+
+
+.contenu4 p {
+    margin-top: 6em;
+    margin-right: 10em;
+    margin-left: 10em;
+    text-align: justify;
+}
+
+
+/* --- Partie Contact --- */
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4.5em;
+    margin-left: 0em;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact1 {
+    padding-top: 15px;
+}
+
+.contact2 {
+    padding-top: 15px;
+}
