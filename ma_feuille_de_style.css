@@ -55,7 +55,7 @@ body {
     height: 40em;
     width: 100%;
     flex-direction: column;
-    padding: 15em;
+    padding: 13em;
 }
 
 .contenu1 {
@@ -117,6 +117,16 @@ body {
 }
 
 /* -- Navigation -- */
+/* Add a black background color to the top navigation */
+
+
+/* Style the links inside the navigation bar */
+
+
+/* Change the color of links on hover */
+
+
+/* Add a color to the active/current link */
 
 nav {
     position: sticky;
@@ -155,14 +165,7 @@ h1 {
     font-size: 2em;
 }
 
-#headerp {
-    font-weight: 900;
-}
 
-#headerh1 {
-    font-weight: 900;
-    font-size: 40px;
-}
 
 /* -- Partie image de "Centre d'intérêts" -- */
 
@@ -181,7 +184,16 @@ h1 {
 .interetsp {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    font-weight: 900;
+}
+
+#headerp {
+    font-weight: 900;
+}
+
+#headerh1 {
+    font-weight: 900;
+    font-size: 40px;
 }
 
 .formations {
@@ -217,9 +229,10 @@ h1 {
 
 
 .contenu1 p {
-    margin-top: 6em;
+    margin-top: 4em;
     margin-right: 10em;
     margin-left: 10em;
+    margin-bottom: 3em;
     text-align: justify;
 }
 
@@ -254,3 +267,18 @@ h1 {
 .contact2 {
     padding-top: 15px;
 }
+
+#googleMap {
+    width: 60%; /* Largeur de la carte */
+    height: 300px; /* Hauteur de la carte */
+    border: 2px solid #000; /* Bordure noire */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+    margin: 20px auto; /* Centrer horizontalement avec des marges */
+  }
+
+  /* Ajout d'un effet au survol de la carte */
+  #googleMap:hover {
+    transform: scale(1.05); /* Zoom léger au survol */
+    transition: transform 0.3s ease; /* Animation fluide */
+  }
