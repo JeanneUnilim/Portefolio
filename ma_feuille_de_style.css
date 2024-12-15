@@ -117,16 +117,6 @@ body {
 }
 
 /* -- Navigation -- */
-/* Add a black background color to the top navigation */
-
-
-/* Style the links inside the navigation bar */
-
-
-/* Change the color of links on hover */
-
-
-/* Add a color to the active/current link */
 
 nav {
     position: sticky;
@@ -165,7 +155,14 @@ h1 {
     font-size: 2em;
 }
 
+#headerp {
+    font-weight: 900;
+}
 
+#headerh1 {
+    font-weight: 900;
+    font-size: 40px;
+}
 
 /* -- Partie image de "Centre d'intérêts" -- */
 
@@ -186,7 +183,6 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
 }
-
 
 .formations {
     display: flex;
